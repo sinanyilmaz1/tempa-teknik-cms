@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_histories",
+  "info": {
+    "singularName": "company-history",
+    "pluralName": "company-histories",
+    "displayName": "Company History"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "year": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "is_active": {
+      "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "default": true
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true,
+      "enum": [
+        "flag",
+        "location",
+        "gears",
+        "handshake",
+        "chip",
+        "box",
+        "factory",
+        "truck",
+        "award",
+        "growth",
+        "globe",
+        "wrench"
+      ]
+    }
+  }
+}
