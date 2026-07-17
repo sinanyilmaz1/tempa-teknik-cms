@@ -62,7 +62,12 @@
         "award",
         "growth",
         "globe",
-        "wrench"
+        "wrench",
+        "robot",
+        "cloud",
+        "flask",
+        "building",
+        "network"
       ]
     }
   }
