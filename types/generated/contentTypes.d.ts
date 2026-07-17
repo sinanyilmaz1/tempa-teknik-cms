@@ -518,6 +518,11 @@ export interface ApiCompanyHistoryCompanyHistory
         'growth',
         'globe',
         'wrench',
+        'robot',
+        'cloud',
+        'flask',
+        'building',
+        'network',
       ]
     > &
       Schema.Attribute.Required &
